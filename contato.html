@@ -7,7 +7,40 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+    <header>
+        <img src="img/logo.svg" alt="Logo da página" class="logo">
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <div class="linha-menu-top"></div>
+            <div class="linha-menu-center"></div>
+            <div class="linha-menu-bottom"></div>
+        </label>
+        <nav class="navbar-desktop">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="#">Serviços</a>
+             <ul>
+            <li>
+                <a href="#">
+                    <img src="img/facebook.svg" alt="link do facebook" class="redes">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/instagram.svg" alt="link do instagram" class="redes">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/github.svg" alt="link do github" class="redes">
+                </a>
+            </li>
+        </ul>
+        </nav>
+       
+    </header>
     <main>
         <section class="hero">
             <img src="../img/hero.png" alt="Imagem Hero" class="hero-image">
@@ -84,15 +117,7 @@
             </div>
         </div>
     main id="app"></main>
-    <footer>
-        <nav>
-             <a href="index.html">home</a>
-             <a href="sobre.html">sobre</a>
-             <a href="serviços.html">serviços</a>
-        </nav>
-    </footer>
         <script src="js/navbar.js" defer></script>
         <script src="js/app.js" defer></script>
-        <script src="js/footer.js" defer></script>
 </body>
 </html>
